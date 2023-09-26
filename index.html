@@ -1,242 +1,68 @@
-<!DOCTYPE HTML>
-<!--
-	Horizons by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
-<html>
-
+<!doctype html>
+<html lang="en">
 <head>
-    <title>Dou Dou Technology</title>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-    <meta name="description" content=""/>
-    <meta name="keywords" content=""/>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.dropotron.min.js"></script>
-    <script src="js/skel.min.js"></script>
-    <script src="js/skel-layers.min.js"></script>
-    <script src="js/init.js"></script>
-    <script src="js/event.js"></script>
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="css/skel.css"/>
-    <link rel="stylesheet" href="css/style.css"/>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="https://c381.pcloud.com/dpZSC0Ru6Z3qvqGX7ZJh3D7ZZSxyDykZ3VZZl0VZXZXNok1KLpaxbci9QYyyt1oJbXV7uy/th-54825882797-1016x569.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Vite + React</title>
+    <base href="/src/assets/images/*">
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+      var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+      (function () {
+        var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/650e6c5c0f2b18434fda1847/1hb05eih0';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+      })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+
+    <!-- Start of LiveChat (www.livechat.com) code -->
+<!--    <script>-->
+<!--      window.__lc = window.__lc || {};-->
+<!--      window.__lc.license = 16194984;-->
+<!--      ;(function (n, t, c) {-->
+<!--        function i(n) {-->
+<!--          return e._h ? e._h.apply(null, n) : e._q.push(n)-->
+<!--        }-->
+
+<!--        var e = {-->
+<!--          _q: [], _h: null, _v: "2.0", on: function () {-->
+<!--            i(["on", c.call(arguments)])-->
+<!--          }, once: function () {-->
+<!--            i(["once", c.call(arguments)])-->
+<!--          }, off: function () {-->
+<!--            i(["off", c.call(arguments)])-->
+<!--          }, get: function () {-->
+<!--            if (!e._h) throw new Error("[LiveChatWidget] You can't use getters before load.");-->
+<!--            return i(["get", c.call(arguments)])-->
+<!--          }, call: function () {-->
+<!--            i(["call", c.call(arguments)])-->
+<!--          }, init: function () {-->
+<!--            var n = t.createElement("script");-->
+<!--            n.async = !0, n.type = "text/javascript", n.src = "https://cdn.livechatinc.com/tracking.js", t.head.appendChild(n)-->
+<!--          }-->
+<!--        };-->
+<!--        !n.__lc.asyncInit && e.init(), n.LiveChatWidget = n.LiveChatWidget || e-->
+<!--      }(window, document, [].slice))-->
+<!--    </script>-->
+<!--    <noscript><a href="https://www.livechat.com/chat-with/16194984/" rel="nofollow">Chat with us</a>, powered by <a-->
+<!--            href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>-->
+    <!-- End of LiveChat code -->
+
+
+  <script type="module" crossorigin src="/assets/index-bff2e405.js"></script>
+  <link rel="stylesheet" href="/assets/index-38154fbc.css">
 </head>
-
-<body class="homepage">
-
-<!-- Header -->
-<div id="header">
-
-    <div class="container">
-
-        <!-- Dialog -->
-        <dialog id="myDialog">
-            <div style="display: flex; flex-direction: column;">
-                <img src="./images/line.jpg" style="height: 200px;"/>
-                <h1>掃描LINE加入好友</h1>
-                <button onclick="dialogClose()">關閉</button>
-            </div>
-        </dialog>
-
-        <!-- Logo -->
-        <h1><a href="#" id="logo">Tsung Hsien Chen</a></h1>
-        <h4> - Software Development - </h4>
-
-        <!-- Nav -->
-        <nav id="nav">
-            <ul>
-                <li><a href="index.html">首頁</a></li>
-                <li>
-                    <a href="right-sidebar.html">案例分享</a>
-                </li>
-                <li><a href="https://www.surveycake.com/s/eor8B" target="blank">需求聯繫</a></li>
-            </ul>
-        </nav>
-
-        <!-- Banner -->
-        <div id="banner">
-            <div class="container">
-                <section>
-                    <header class="major">
-							<span class="byline">為客戶客製化專屬手機APP、網頁建置、雲端後台 Web
-								API 建置與資料庫串接、整體系統的維護、及各類系統解決方案。</span>
-                    </header>
-                    <a href="#" class="button alt" onclick="showLineCode()">Contact us</a>
-                </section>
-            </div>
-        </div>
-
-    </div>
-</div>
-
-<!-- Featured -->
-<div class="wrapper style2">
-    <section class="container">
-        <header class="major">
-            <h2>- SERVICES -</h2>
-            <span class="byline">服務項目</span>
-        </header>
-        <div class="row no-collapse-1">
-            <section class="4u">
-                <a href="#" class="image feature"><img src="images/pic02.jpg" alt=""></a>
-                <h3>網頁開發</h3>
-                <p>Web Development</p>
-            </section>
-            <section class="4u">
-                <a href="#" class="image feature"><img src="images/pic03.jpg" alt=""></a>
-                <h3>原生及混合式APP開發</h3>
-                <p>Android / iOS</p>
-            </section>
-            <section class="4u">
-                <a href="#" class="image feature"><img src="images/pic04.jpg" alt=""></a>
-                <h3>後台管理系統開發</h3>
-                <p>Systems Management</p>
-            </section>
-            <section class="4u">
-                <a href="#" class="image feature"><img src="images/pic06.jpg" alt=""></a>
-                <h3>軟體開發與維護</h3>
-                <p>Software Development & DepOps</p>
-            </section>
-            <section class="4u">
-                <a href="#" class="image feature"><img src="images/pic07.jpg" alt=""></a>
-                <h3>雲端建置</h3>
-                <p>Cloud Deploy</p>
-            </section>
-            <section class="4u">
-                <a href="#" class="image feature"><img src="images/pic08.jpg" alt=""></a>
-                <h3>AR及IoT相關</h3>
-                <p>AR Technology & Internet of Things</p>
-            </section>
-        </div>
-    </section>
-</div>
-
-<!-- Main -->
-<div id="main" class="wrapper style1">
-    <section class="container">
-        <header class="major">
-            <h2>項目介紹</h2>
-            <span class="byline"> - INTRODUCTION - </span>
-        </header>
-        <div class="row">
-            <!-- Content -->
-            <div class="6u">
-
-                <section>
-                    <ul class="style">
-                        <li>
-                            <span class="fa fa-wrench"></span>
-                            <h3>Web Development</h3>
-                            <span>網頁開發</span>
-                            <span>Business 形象網頁建置、網域註冊及續約、SSL安全憑證</span>
-                        </li>
-                        <li>
-                            <span class="fa fa-tasks"></span>
-                            <h3>後台管理系統開發</h3>
-                            <span>動態修改客戶端顯示資料、管理商品上下架需求、客戶端商品圖片修改需求</span>
-                        </li>
-                        <li>
-                            <span class="fa fa-cloud"></span>
-                            <h3>雲端建置</h3>
-                            <span>GCP/ AWS主機建置、Cloudflare資訊安全維護</span>
-                        </li>
-                    </ul>
-                </section>
-            </div>
-            <div class="6u">
-                <section>
-                    <ul class="style">
-                        <li>
-                            <span class="fa fa-mobile"></span>
-                            <h3>手機APP開發</h3>
-                            <span>Android/ iOS 系統原生及混合式開發、APP上架、後續版本更新</span>
-                        </li>
-                        <li>
-                            <span class="fa fa-cog"></span>
-                            <h3>軟體開發與維護</h3>
-                            <span>網域續約服務、系統維護服務、整體系統開發評估</span>
-                        </li>
-                        <li>
-                            <span class="fa fa-play-circle"></span>
-                            <h3>AR及IoT相關</h3>
-                            <span>連接設備訊號及簡易AR相關、影像辨識相關、LineNotify串接</span>
-                        </li>
-                    </ul>
-                </section>
-            </div>
-        </div>
-    </section>
-</div>
+<body>
+<div id="root"></div>
 
 
-<!-- Footer -->
-<div id="footer">
-    <div class="container">
-
-        <!-- Lists -->
-        <div class="row">
-            <div class="7u">
-                <section>
-                    <header class="major">
-                        <h2>您有這些困擾嗎？</h2>
-                        <span class="byline">Do you have these problems?</span>
-                    </header>
-                    <p> - 想製作簡易網頁卻無從下手</p>
-                    <p> - 找了工程師卻總是缺了另一個平台的工程師遲遲無法開工</p>
-                    <p> - 僅負責某平台工程師溝通無法整體評估</p>
-                    <p> - 無法對開發者表達直接需求，需透過各種第三者傳話</p>
-                    <br/>
-                    <br/>
-                    <p>這類困擾我可以為您服務</p>
-
-                </section>
-            </div>
-            <div class="4u">
-                <section>
-                    <header class="major">
-                        <h2>聯繫我</h2>
-                        <span class="byline">- Contact US -</span>
-                    </header>
-                    <ul class="contact">
-                        <!-- 							<li>
-                                                        <img class="icon " src="./images/address.png" height="18px" />
-                                                        <span class="address">Address</span>
-                                                        <span>台南市安南區海中街774巷6號<br />Tainan City, TW</span>
-                                                    </li> -->
-                        <li>
-                            <img class="icon " src="./images/email.png" height="18px"/>
-                            <span class="mail">Mail</span>
-                            <span><a href="#">service@doudou-tech.com</a></span>
-                        </li>
-                        <li>
-                            <img class="icon " src="./images/phone.png" height="18px" alt=""/>
-                            <span class="phone">Phone</span>
-                            <span>+886 908-705767</span>
-                        </li>
-                        <li>
-                            <img class="icon " src="./images/line.png" height="18px" alt=""/>
-                            <span class="phone">Line</span>
-                            <span>levinvic</span>
-                        </li>
-                        <li>
-                            <img class="icon" src="./images/profile.png" height="18px" alt="">
-                            <span class="phone">Name</span>
-                            <span>Tsung Hsien Chen</span>
-                        </li>
-                    </ul>
-                </section>
-            </div>
-        </div>
-
-        <!-- Copyright -->
-        <div class="copyright">
-            @2023 Johnson Chen Solutions Inc.
-        </div>
-
-    </div>
-</div>
 
 </body>
-
 </html>
